@@ -90,3 +90,20 @@ or show your support via [Beerpay](https://beerpay.io/laradock/laradock)
 ## License
 
 [MIT License](https://github.com/laradock/laradock/blob/master/LICENSE)
+
+
+## Setup for Multiple Projects ######
+
+1 - Clone this repository anywhere on your machine (similar to Steps A.2. from above):
+
+`git clone https://github.com/moharami/laradock.git`
+
+Your folder structure should look like this:
+>+ laradock
+>+ project-1
+>+ project-2
+
+2 - Add the domains to the hosts files.
+>127.0.0.1  project-1.test
+>127.0.0.1  project-2.test
+>...
