@@ -98,6 +98,10 @@ or show your support via [Beerpay](https://beerpay.io/laradock/laradock)
 
 `git clone https://github.com/moharami/laradock.git`
 
+2- `cp env-example .env`
+3- `docker-compose up -d nginx mariadb phpmyadmin`
+
+
 Your folder structure should look like this:
 >+ laradock
 >+ project-1
